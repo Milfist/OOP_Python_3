@@ -2,5 +2,8 @@ language: python
 python:
   - "3.6"
 #   - "3.6-dev"
+install:
+
 script:
+  - python App.py
   - py.test
