@@ -1,13 +1,13 @@
-# Learning Python
+# OOP with Python 3
 
 
-For work needs, I have to use this programming language.
-I start on 05-30-2018 and this is what I'm developing while doing training and exercises:
+This is my first OOP appication with Python.
 
 ## Feats:
 
-* My first script. In script folder, a code to decompose numbers.
-* Python and OOP. My first application based on the paradigm of object-oriented programming.
+* First objects
+* First test
+* Travis CI config
 
 
 # By:
