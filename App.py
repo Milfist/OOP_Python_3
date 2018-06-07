@@ -1,5 +1,5 @@
-from Python_3_OOP.models.Point import Point
-from Python_3_OOP.models.Rectangle import Rectangle
+from models.Point import Point
+from models.Rectangle import Rectangle
 
 
 def main():
