@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Milfist/OOP_Python_3.svg?branch=master)](https://travis-ci.org/Milfist/OOP_Python_3)
+[![Build Status](https://travis-ci.org/Milfist/OOP_Python_3.svg?branch=master)](https://travis-ci.org/Milfist/OOP_Python_3) [![codecov](https://codecov.io/gh/Milfist/OOP_Python_3/branch/master/graph/badge.svg)](https://codecov.io/gh/Milfist/OOP_Python_3)
 
 # OOP with Python 3
 
