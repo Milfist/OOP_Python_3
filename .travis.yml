@@ -4,7 +4,7 @@ python:
   - "3.6-dev"
 
 install:
-#  - pip install codecov
+  - pip install codecov
   - pip install pytest pytest-cov
 script:
   - python App.py
