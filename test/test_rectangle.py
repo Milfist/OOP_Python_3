@@ -24,7 +24,3 @@ class RectangleTest(unittest.TestCase):
 
     def test_should_be_area_when_call_get_area(self):
         self.assertEqual(6, self.mock_rectangle.area())
-
-
-if __name__ == '__main__':
-    unittest.main()

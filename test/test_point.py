@@ -27,6 +27,3 @@ class PointTest(unittest.TestCase):
     def test_should_be_distance_ok_when_call_distance_between_two_points(self):
         self.assertEqual(3.605551275463989, Point(2, 3).distance(5, 5))
 
-
-if __name__ == '__main__':
-    unittest.main()
