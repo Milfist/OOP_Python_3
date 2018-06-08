@@ -1,5 +1,5 @@
 from unittest import TestCase
-from models.Point import Point
+from models.point import Point
 
 
 class PointTest(TestCase):

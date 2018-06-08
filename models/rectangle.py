@@ -1,4 +1,4 @@
-from models.Point import Point
+from models.point import Point
 
 
 class Rectangle:

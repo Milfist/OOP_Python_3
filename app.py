@@ -1,5 +1,5 @@
-from models.Point import Point
-from models.Rectangle import Rectangle
+from models.point import Point
+from models.rectangle import Rectangle
 
 
 def main():

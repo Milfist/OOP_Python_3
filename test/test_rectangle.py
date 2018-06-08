@@ -1,6 +1,6 @@
 from unittest import TestCase
-from models.Point import Point
-from models.Rectangle import Rectangle
+from models.point import Point
+from models.rectangle import Rectangle
 
 
 class RectangleTest(TestCase):
