@@ -5,7 +5,6 @@ from models.Rectangle import Rectangle
 def main():
     point_a = Point(2, 3)
     point_b = Point(5, 5)
-    rectangle = Rectangle(point_a, point_b)
 
     print(point_a.quadrant())
     print(point_b.quadrant())
@@ -17,6 +16,12 @@ def main():
     print('El vector resultante: ({}, {})'.format(vector_a, vector_b))
 
     print('La distancia entre los puntos es: {}'.format(point_a.distance(point_b.axis_x, point_b.axis_y)))
+
+    rectangle = Rectangle(point_a, point_b)
+
+    print('La base del rectangulo es {}'.format(rectangle.base))
+    print('La altura del rectangulo es {}'.format(rectangle.height))
+    print('El area del rectangulo es igual a {}'.format(rectangle.area()))
 
 
 if __name__ == "__main__":
