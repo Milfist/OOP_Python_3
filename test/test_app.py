@@ -1,8 +1,8 @@
 import os
-import unittest
+from unittest import TestCase
 
 
-class AppTest(unittest.TestCase):
+class AppTest(TestCase):
 
     def test_main(self):
         result = os.system("python App.py")

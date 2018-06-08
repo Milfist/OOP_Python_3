@@ -1,9 +1,9 @@
-import unittest
+from unittest import TestCase
 from models.Point import Point
 from models.Rectangle import Rectangle
 
 
-class RectangleTest(unittest.TestCase):
+class RectangleTest(TestCase):
 
     def setUp(self):
         mock_point_a = Point(2, 3)

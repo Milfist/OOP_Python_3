@@ -1,8 +1,8 @@
-import unittest
+from unittest import TestCase
 from models.Point import Point
 
 
-class PointTest(unittest.TestCase):
+class PointTest(TestCase):
 
     def test_should_be_Quadrant_1_when_call_quadrant_with_point(self):
         self.assertEqual(Point(3, 2).quadrant(), 'Quadrant 1')
