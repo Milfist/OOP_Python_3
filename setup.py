@@ -4,7 +4,7 @@ setup(
     name="OOP_Python_3",
     version="0.1.0",
     description="",
-    author="",
+    author="MilfisT",
     url="",
     scripts=[],
     packages=["inheritance", "models"]
