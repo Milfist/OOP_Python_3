@@ -15,3 +15,6 @@ class VehicleTest(TestCase):
 
     def test_should_be_ok_when_call_str_function(self):
         self.assertEqual('Blue 4', self.vehicle.__str__())
+
+    def tearDown(self):
+        del self.vehicle

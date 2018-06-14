@@ -22,3 +22,6 @@ class MotorcycleTest(TestCase):
 
     def test_should_be_ok_when_motorcycle_str(self):
         self.assertEqual('Green 2 sport 250 1000', self.motorcycle.__str__())
+
+    def tearDown(self):
+        del self.motorcycle

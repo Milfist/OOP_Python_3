@@ -18,3 +18,6 @@ class BikeTest(TestCase):
 
     def test_should_be_ok_when_bike_str(self):
         self.assertEqual('Green 2 sport', self.bike.__str__())
+
+    def tearDown(self):
+        del self.bike

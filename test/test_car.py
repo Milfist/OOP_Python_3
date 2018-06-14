@@ -20,3 +20,5 @@ class CarTest(TestCase):
     def test_should_be_ok_when_call_str(self):
         self.assertEqual('Blue 4 180 2000', self.car.__str__())
 
+    def tearDown(self):
+        del self.car
