@@ -1,3 +1,5 @@
 .idea/
 *.pyc
 .travis.yml___jb_old___
+venv/
+.pytest_cache
